@@ -9,22 +9,24 @@
     </style>
 </head>
 <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                        <div class="navbar-header">
+                                <a class="navbar-brand" href="#">
+                                  <img alt="Brand" src="static/image/logo.png" height="50px">
+                                </a>
+                              </div>
+                              <div align="right">
+                                    <a href="/login" ><button type="button" class="btn btn-primary navbar-btn" style="margin-top: 30px;"><span class="fa fa-user"></span> Sign In</button></a>
+                                    <a href="/signup" ><button type="button" class="btn btn-danger navbar-btn" style="margin-top: 30px;"><span class="fa fa-user"></span> Sign Up</button></a>
+                              </div>
+                </div>
+        </nav>
+        <div class="col-xs-12" style="height:50px;"></div>
 <div class="container">
-
     <div class="jumbotron text-center">
-        <h1><span class="fa fa-lock"></span> Node Authentication</h1>
-
-        <p>Login or Register with:</p>
-
-        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
-        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
-        <a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
-        <a href="/auth/twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</a>
-        <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google-plus"></span> Google+</a>
     </div>
-
-  
-
 </div>
+
 </body>
 </html>
